@@ -6,6 +6,6 @@ public class Main {
         c1.year =2020;
         c1.displayInfo();
 
-    }
 
+    }
 }

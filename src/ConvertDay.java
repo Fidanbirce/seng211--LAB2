@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class ConvertDay {
+
     public static void main(String[] args){
         Scanner input= new Scanner(System.in);
         System.out.print("Enter a number between 1-7:");

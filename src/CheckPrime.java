@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class CheckPrime {
+
     public static void main(String[] args){
         Scanner input= new Scanner(System.in);
         System.out.print("Enter a number:");
@@ -14,6 +15,9 @@ public class CheckPrime {
         }
         input.close();
     }
+
+
+
         public static boolean isPrime(int n) {
             if (n <= 1) {
                 return false;
@@ -23,6 +27,9 @@ public class CheckPrime {
                     return false;
                 }
             }
+
+
+
             return true;
         }
     }

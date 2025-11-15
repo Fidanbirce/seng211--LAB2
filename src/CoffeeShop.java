@@ -23,7 +23,6 @@ public class CoffeeShop {
             default: System.out.println("Invalid choice.");
             break;
                 }
-
                 input.close();
             }
         }
